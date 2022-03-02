@@ -40,6 +40,6 @@ export async function getStaticProps(context) {
       props: { pokemon },
     };
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 }
