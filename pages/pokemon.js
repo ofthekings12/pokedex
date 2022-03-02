@@ -9,6 +9,15 @@ export default function pokemon({ pokeman }) {
     <img className="mx-auto" src={pokeman.image} alt={pokeman.name}/>
     <p><span className="font-bold mr-2">Weight: </span>{pokeman.weight}</p>
     <p><span className="font-bold mr-2">Height: </span>{pokeman.height}</p>
+    <h2 className="text-2xl mt-6 mb-2">Types</h2>
+    {pokeman.types.map((type, index) => (
+       <p key={index} >{type.type.name}</p>
+    ))}
+    <p className="mt-10 text-center">
+      <Link href="/">
+        <a className="text-2xl underline">Home</a>
+      </Link>
+    </p>
   </Layout>;
 }
 
