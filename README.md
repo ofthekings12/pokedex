@@ -5,6 +5,8 @@ A small-scale project to get more familiar with NextJS using Static Pages and Se
 
 ## Checkout the GIF below for a quick demo:
 
+!["NextJs Pokedex Gif"](https://github.com/ofthekings12/pokedex/blob/main/docs/pokegif.gif?raw=true)
+
 
 ## Setup
 
